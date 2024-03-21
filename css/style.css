@@ -1,0 +1,71 @@
+body {
+
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    gap: 10px;
+}
+
+.btnverdadero{
+    padding: 50px 50px;
+    background: transparent;
+    border: solid 1px rgba(255, 255, 255, 0.057);
+
+}
+
+.btnrandom {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    position: absolute;
+    top: 50px;
+}
+
+
+.move1 {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    position: absolute;
+    bottom: 100px;
+    left: 49px;
+}
+
+.move2 {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    position: absolute;
+    bottom: 50px;
+    right: 10px;
+}
+
+.move3 {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 300px;
+}
+
+.move4 {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    position: absolute;
+    right: 64px;
+    top: 15px;
+}
